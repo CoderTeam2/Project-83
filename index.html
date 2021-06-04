@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Paint with Touch and Mouse</title>
+</head>
+<body>
+    <h1>Paint with Touch and Mouse</h1>
+    <canvas id="canvas" width="1000" height="600"></canvas>
+    <br><br>
+    <span>Select Stroke Color : </span><input type="color" id="color">
+    <span>Enter Line Width : </span><input type="number" id="width"><br><br>
+    <button onclick="clearCanvas()">Clear Canvas</button>
+    <script src="script.js"></script>
+</body>
+<style>
+    body{
+        text-align: center;
+        background: linear-gradient(aqua,lightblue);
+        
+    }
+    #canvas{
+        background-color: white;
+    }
+</style>
+</html>
